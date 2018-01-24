@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "mocha test/tests.js",
+    "test": "mocha --timeout 15000 test/tests.js",
     "start": "node app.js"
   },
   "author": "",

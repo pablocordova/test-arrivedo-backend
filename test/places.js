@@ -23,7 +23,6 @@ describe('Places API routes', () => {
   describe('GET /v1/places/top10', () => {
 
     it('Get data successfully', done => {
-      setTimeout(done, 5000);
       chai.request(app)
         .get('/v1/places/top10' + queryOK)
         .end((err, res) => {
